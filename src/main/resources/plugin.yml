@@ -1,0 +1,16 @@
+name: SellChests
+version: '${project.version}'
+main: com.lusionmc.autosellchest.AutoSellChest
+api-version: 1.17
+prefix: [ ASC ]
+authors: [ Dylan, Poisontrigger ]
+description: Sell Chests
+website: lusionmc.com
+commands:
+  givechest:
+    usage: /givechest
+    description: gives a chest
+  ascreload:
+    usage: /ascreload
+    description: reloads the config
+
